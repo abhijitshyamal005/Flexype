@@ -9,7 +9,7 @@ const AlertForm = () => {
     e.preventDefault()
     try {
       const res = await axios.post(
-        '/api/submit',
+        'http://localhost:8000/api/submit',
         {},
         {
           headers: { Authorization: token }
