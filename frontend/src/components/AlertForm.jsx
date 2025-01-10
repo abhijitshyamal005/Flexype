@@ -13,7 +13,8 @@ const AlertForm = () => {
         {},
         {
           headers: { Authorization: token }
-        }
+        }  
+     
       )
       setResponse(res.data.message)
     } catch (err) {
