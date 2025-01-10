@@ -11,6 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(alertRoutes);
 
+require("dotenv").config();
 // Connect to Database
 connectDB();
 
