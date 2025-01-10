@@ -11,7 +11,7 @@ This project implements a backend alerting system designed to monitor a specific
 - **Scalability:** Designed to handle high traffic (~500 requests per second).
 
 ## Tech Stack
-- **Backend Language:** Node.js (JavaScript/TypeScript)
+- **Backend Language:** Node.js (JavaScript)
 - **Framework:** Express.js
 - **Database:** MongoDB
 - **Email Alerts:** Google's SMTP server
@@ -19,8 +19,8 @@ This project implements a backend alerting system designed to monitor a specific
 ## Installation
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/alerting-system.git
-   cd alerting-system
+   git clone https://github.com/abhijitshyamal005/Flexype/tree/main
+   cd Flexype
    ```
 2. **Install Dependencies:**
    ```bash
@@ -29,8 +29,8 @@ This project implements a backend alerting system designed to monitor a specific
 3. **Configure Environment Variables:**
    Create a `.env` file with the following content:
    ```env
-   PORT=3000
-   MONGODB_URI=mongodb://localhost:27017/alerting-system
+   PORT=8000
+   MONGODB_URI=................................
    EMAIL_USER=your-email@gmail.com
    EMAIL_PASS=your-email-password
    ALERT_THRESHOLD=5
@@ -38,7 +38,7 @@ This project implements a backend alerting system designed to monitor a specific
    ```
 4. **Start the Server:**
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## API Endpoints
@@ -46,7 +46,7 @@ This project implements a backend alerting system designed to monitor a specific
 - **Description:** Endpoint to monitor POST requests.
 - **Request Example:**
   ```bash
-  curl -X POST http://localhost:3000/api/submit -H "Authorization: Bearer your-access-token"
+  curl -X POST http://localhost:8000/api/submit -H "Authorization: Bearer your-access-token"
   ```
 - **Failure Response:** Triggers tracking on invalid headers or incorrect access tokens.
 
@@ -104,8 +104,6 @@ Configures and sends email notifications using Gmail SMTP.
 - Implemented rate limiting and optimized database queries.
 - Designed with scalability to handle ~500 requests/second.
 
-## Demo Video
-- [Google Drive Link](https://drive.google.com/your-demo-video)
 
 ## Author
 **Abhijit Shyamal**  
@@ -123,14 +121,10 @@ Event Coordinator for Ojass | Technical Support for Juniors
 This project is licensed under the MIT License.
 
 ## Submission
-- **Code:** [GitHub Repository](https://github.com/your-username/alerting-system)
-- **Video:** [Google Drive Link](https://drive.google.com/your-demo-video)
+- **Code:** [GitHub Repository](https://github.com/abhijitshyamal005/Flexype/tree/main)
 
 For any queries, feel free to reach out.
 
 ---
 
-**Note:** Please revert to the same email (hello@flexype.io) while cc’ing om.sinkar@flexype.io along with your resume.
-
-Good luck! 🎯
 
